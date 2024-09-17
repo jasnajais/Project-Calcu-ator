@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    
+    text-align: center;
+    background-image: url(dark-forest-shsyax3tzax42p9o.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+h1{
+    color:transparent;
+    font-size: 55px;
+    text-align: center;
+    -webkit-text-stroke:3PX white;
+    position: relative;
+}
+h1::before{
+    content: "CALCULATOR";
+    position: absolute;
+   TEX 
+
+color: white;
+
+transition: 1s ease-in-out;
+}
+
+input{
+    width: 80px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin:10px;
+    background-color: #fff;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:0. 1s;
+    background-color: #4c555c;
+}
+.pork{
+    background: transparent;
+    border-radius: 0px;
+    border:2px solid(255,255,255,.2);
+    color: #fff;
+    backdrop-filter:blur(5px );
+    box-shadow: 20  10px blue;
+    border-radius: 30px 40px;
+    
+}
